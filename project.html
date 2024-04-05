@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Companion</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+
+    </div>
+    
+
+
+    <div class="content">
+      <h1>Recipe Companion</h1>
+      <form id="search-form">
+          <input type="text" id="ingredient-input" placeholder="Enter ingredients">
+          <button type="submit">Search</button>
+      </form>
+      <div id="filters">
+          <label for="diet-select">Diet Choices:</label>
+          <select id="diet-select">
+              <option value="none">None</option>
+              <option value="vegetarian">Vegetarian</option>
+              <option value="vegan">Vegan</option>
+              <option value="gluten free">Gluten Free</option>
+              
+          </select>
+          
+      </div>
+    </div>
+        
+    <main id="recipe-results">
+      <section id="recipes-container">
+        <div class="recipe-card"></div>
+      </section>
+    </main>
+
+    <div class="search-complete" id="searchComplete">
+      Scroll For Results
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
